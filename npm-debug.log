@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\dell\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'npm@latest',
+1 verbose cli   '-g' ]
+2 info using npm@4.0.0
+3 info using node@v8.0.0
+4 verbose stack Error: Cannot find module 'safe-buffer'
+4 verbose stack     at Function.Module._resolveFilename (module.js:485:15)
+4 verbose stack     at Function.Module._load (module.js:437:25)
+4 verbose stack     at Module.require (module.js:513:17)
+4 verbose stack     at require (internal/module.js:11:18)
+4 verbose stack     at Object.<anonymous> (C:\Users\dell\AppData\Roaming\npm\node_modules\npm\node_modules\request\lib\helpers.js:5:14)
+4 verbose stack     at Module._compile (module.js:569:30)
+4 verbose stack     at Object.Module._extensions..js (module.js:580:10)
+4 verbose stack     at Module.load (module.js:503:32)
+4 verbose stack     at tryModuleLoad (module.js:466:12)
+4 verbose stack     at Function.Module._load (module.js:458:3)
+5 verbose cwd E:\gittask\express\chat
+6 error Windows_NT 10.0.15063
+7 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\dell\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "npm@latest" "-g"
+8 error node v8.0.0
+9 error npm  v4.0.0
+10 error code MODULE_NOT_FOUND
+11 error Cannot find module 'safe-buffer'
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]

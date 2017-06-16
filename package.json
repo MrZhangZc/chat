@@ -1,0 +1,16 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "a chat app",
+  "main": "app.js",
+  "repository": "git@github.com:MrZhangZc/chat.git",
+  "author": "zzc_imau <jiayouzzc@126.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  },
+  "scripts": {
+    "start": "node app"
+  }
+}
